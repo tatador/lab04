@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Моя страница | lab04</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #74b9ff, #a29bfe); /* Красивый градиентный фон */
+            color: #2d3436;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+            text-align: center;
+            max-width: 400px;
+        }
+        h1 {
+            color: #6c5ce7;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+        p {
+            font-size: 16px;
+            color: #636e72;
+            line-height: 1.5;
+        }
+        img {
+            max-width: 170px;
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+        }
+        img:hover {
+            transform: scale(1.08); /* Логотип будет слегка увеличиваться при наведении */
+        }
+        .btn {
+            display: inline-block;
+            background: #6c5ce7;
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: 0.3s;
+            margin-top: 15px;
+        }
+        .btn:hover {
+            background: #a29bfe;
+            box-shadow: 0 5px 10px rgba(108, 92, 231, 0.4);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <!-- Логотип Рубцовского института ведет на их сайт -->
+        <a href="https://rb.asu.ru/" target="_blank">
+            <img src="https://asu.ru" alt="Логотип РИ АлтГУ">
+        </a>
+        
+        <h1>Здравствуйте! Хорошего дня! ✨</h1>
+        <p>Добро пожаловать на мою первую автоматизированную веб-страницу, опубликованную через GitHub Pages в рамках лабораторной работы №4.</p>
+        
+        <!-- Большая кнопка перехода на сайт института -->
+        <a href="https://rb.asu.ru/" target="_blank" class="btn">Перейти на сайт РИ АлтГУ</a>
+    </div>
+
+</body>
+</html>
